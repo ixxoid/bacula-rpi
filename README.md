@@ -1,6 +1,6 @@
 ## Description
 
-This is the Bacula Open Source Edition built for Rasperrry Pi on the official Debian Bullseye Docker image. The Bacula Catalog image is using the official Postgresql 13 Docker image.
+This is the Bacula Open Source Edition built for Rasperry Pi on the official Debian Bullseye Docker image. The Bacula Catalog image is using the official Postgresql 13 Docker image.
 The timezone in the containers is inherited from the local time zone on the docker host.
 
 **Requirements**
