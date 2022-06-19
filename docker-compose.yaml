@@ -38,7 +38,8 @@ services:
       - db
     volumes:
       - ./etc:/opt/bacula/etc:ro
-      - /backup:/backup:rw
+# Set the mountpoint and mapping to your storage device     
+#      - /backup:/backup:rw
       - /etc/localtime:/etc/localtime:ro
       - /etc/timezone:/etc/timezone:ro
       - bcworking:/opt/bacula/working:rw
